@@ -5,5 +5,9 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.AstonNewsApp" parent="Base.Theme.AstonNewsApp" />
+    <style name="Theme.AstonNewsApp" parent="Base.Theme.AstonNewsApp" >
+
+        <item name="android:statusBarColor">@color/primary60</item>
+    </style>
+
 </resources>
