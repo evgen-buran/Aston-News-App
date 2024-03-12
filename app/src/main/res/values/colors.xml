@@ -9,6 +9,7 @@
     <color name="secondary_container">#CEE7F0</color>
     <color name="outline">#70787C</color>
 
+    <color name="background">#FBFCFE</color>
 
     <color name="surface">#F8F9FB</color>
     <color name="onSurface">#191C1D</color>
