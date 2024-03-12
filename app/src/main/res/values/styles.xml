@@ -1,0 +1,17 @@
+<resources>
+
+    <style name="Widget.Theme.AstonNewsApp.ActionBar.Fullscreen" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <style name="Widget.Theme.AstonNewsApp.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+
+    <style name="Bottom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/primary50</item>
+        <item name="android:width">@dimen/width_item_bottom</item>
+        <item name="android:height">@dimen/height_item_bottom</item>
+    </style>
+</resources>

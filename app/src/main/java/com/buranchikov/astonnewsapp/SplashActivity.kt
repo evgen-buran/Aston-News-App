@@ -2,19 +2,21 @@ package com.buranchikov.astonnewsapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.buranchikov.astonnewsapp.databinding.ActivityMainBinding
+import com.buranchikov.astonnewsapp.databinding.ActivitySplashBinding
 import com.buranchikov.astonnewsapp.splashscreen.SplashScreenFragment
 
-class MainActivity : AppCompatActivity() {
-    lateinit var binding: ActivityMainBinding
+class SplashActivity : AppCompatActivity() {
+    lateinit var binding: ActivitySplashBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
+        binding = ActivitySplashBinding.inflate(layoutInflater)
         setContentView(binding.root)
     }
 
     override fun onStart() {
         super.onStart()
-
+        supportFragmentManager.beginTransaction()
+            .replace(R.id.splashContainer, SplashScreenFragment())
+            .commit()
     }
 }

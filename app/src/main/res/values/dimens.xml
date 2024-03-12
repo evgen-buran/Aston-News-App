@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="corner_radius_item_bottom">16dp</dimen>
+    <dimen name="width_item_bottom">64dp</dimen>
+    <dimen name="height_item_bottom">32dp</dimen>
+</resources>
